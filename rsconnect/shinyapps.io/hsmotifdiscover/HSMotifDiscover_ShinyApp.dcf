@@ -5,9 +5,9 @@ account: hsmotifdiscover
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3456589
-bundleId: 4376641
+bundleId: 5375548
 url: https://hsmotifdiscover.shinyapps.io/HSMotifDiscover_ShinyApp/
-when: 1616348147.93192
+when: 1639572530.80013
+lastSyncTime: 1639572530.80014
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: mainCode_bkp.R|mainCode_bkp2.R

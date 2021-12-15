@@ -1,14 +1,9 @@
 
+options(repos = BiocManager::repositories())
 
 library('ggseqlogo');library('ggplot2');library('Biostrings'); library('DescTools'); library('parallel'); library("foreach"); library('doParallel'); library('cowplot');library('tools')   
 library('MASS'); library('ggpubr'); library('randomcoloR'); library('DescTools'); library('DT') ; library('htmlwidgets'); library('shinyFiles'); library('BiocManager');library('readtext'); library('greekLetters'); library('universalmotif')
 library('shinyURL')
-
-
-
-#options(repos = BiocManager::repositories())
-
-
 
 
 source('gibbs_sampling.R')
