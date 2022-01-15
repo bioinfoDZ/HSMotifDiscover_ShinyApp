@@ -127,7 +127,7 @@ mainCode <- function(input_HSseq_file=input_HSseq_file, motif_length=motif_lengt
     rm_ind=which( width(all_seq_BString) <= motif_width )
     if(length(rm_ind)>0)
     {
-      weight_vec=weight_vec[-rm_ind,]
+      weight_vec=weight_df[-rm_ind,'weight']
       longSeq_BString=all_seq_BString[-rm_ind]
     }
     else{
@@ -185,8 +185,8 @@ mainCode <- function(input_HSseq_file=input_HSseq_file, motif_length=motif_lengt
     ND_seq_BString=BStringSet(non_des_Alpha_seqs)
     #print(ND_seq_BString)
     #readline(prompt="Press [enter] to continue")
-    weight_vec2=(weight_vec2-min(weight_vec2))/(max(weight_vec2)-min(weight_vec2))# normalise weight between 0 and 1
-   
+    #weight_vec2=(weight_vec2-min(weight_vec2))/(max(weight_vec2)-min(weight_vec2))# normalise weight between 0 and 1
+    weight_vec2=weight_vec2/sum(weight_vec2)
     motif_data=gibbs_sampling(seq_BString=seq_BString, motif_width=motif_width, des_Alpha_seqs=des_Alpha_seqs, weight_vec2=weight_vec2, unique_letters=unique_letters, CharData=CharData, ND_seq_BString=ND_seq_BString, itr=itr, if_revCompStrand=if_revCompStrand)
 
     #}else if(length(non_des_Alpha_seqs)==0){

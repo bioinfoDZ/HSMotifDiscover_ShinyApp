@@ -5,9 +5,9 @@ account: hsmotifdiscover
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3456589
-bundleId: 5375548
+bundleId: 5376081
 url: https://hsmotifdiscover.shinyapps.io/HSMotifDiscover_ShinyApp/
-when: 1639572530.80013
-lastSyncTime: 1639572530.80014
+when: 1639580890.50035
+lastSyncTime: 1639580890.50036
 asMultiple: FALSE
 asStatic: FALSE

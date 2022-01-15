@@ -45,7 +45,7 @@ ui <- fluidPage(
   tags$hr(),
   
   helpText("The app is also available in the form of an r-Package at",
-  a("HSMotifDiscover",target="_blank",href="https://github.com/bioinfoDZ/HSMotifDiscover"), "and can be used on local server by downloading a standalone copy avaiable at", a("HSMotifDiscoverShiny",target="_blank",href="https://github.com/bioinfoDZ/HSMotifDiscover")),
+  a("HSMotifDiscover",target="_blank",href="https://github.com/bioinfoDZ/HSMotifDiscover"), "and can be used on local server by downloading a standalone copy avaiable at", a("HSMotifDiscoverShiny",target="_blank",href="https://github.com/bioinfoDZ/HSMotifDiscover_ShinyApp")),
   
   
   h2(" Input Parameters"),
