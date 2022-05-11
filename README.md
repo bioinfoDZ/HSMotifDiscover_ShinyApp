@@ -56,7 +56,7 @@ composed of either non-standard alphabet or words that represent dimers,
 trimers or any combination of letters. Furthermore, to facilitate its
 usage, we have also developed this interactive R Shiny app "HSMotifDiscover_ShinyApp" which is can be dowloaded from current webpage to run on a local computer. 
 
-- Experimental biologists can also use our app directly at
+- Experimental biologists can directly use our app  at
 <a href="https://hsmotifdiscover.shinyapps.io/HSMotifDiscover_ShinyApp/" class="uri">https://hsmotifdiscover.shinyapps.io/HSMotifDiscover_ShinyApp/</a>
  to discover any type of motifs.
  
