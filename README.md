@@ -69,6 +69,8 @@ The HS sequences are diffrent from DNA, RNA and protein sequences in a
 few ways. So, the Gibbs-Sampling algorithm has been implemented in such
 a way, it can discover motifs in the heparan sulfate (HS) sequences.
 
+3. Screenshot of the app
+------------------------
 
 ![""](./AppPage.png)
 
