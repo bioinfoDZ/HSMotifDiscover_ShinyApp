@@ -1,4 +1,5 @@
 
+library(BiocManager)
 options(repos = BiocManager::repositories())
 
 library('ggseqlogo');library('ggplot2');library('Biostrings'); library('DescTools'); library('parallel'); library("foreach"); library('doParallel'); library('cowplot');library('tools')   
@@ -58,7 +59,7 @@ ui <- fluidPage(
     
     
     column(width=3,
-           fileInput("file1", h3("Heparin Sulphate sequence file*"))),
+           fileInput("file1", h3("Heparan Sulfate sequence file*"))),
 
   
   column(width=3, 
@@ -83,7 +84,7 @@ ui <- fluidPage(
   
   
   fluidRow(
-    column(width=3,sliderInput(inputId = "bins",label = h3("Motif Length Range*:"),min = 4,max = 30, value = c(5,7))),
+    column(width=3,sliderInput(inputId = "bins",label = h3("Motif Length Range*:"),min = 3,max = 30, value = c(5,7))),
     column(width=3,
            h4("Input Discription: "),
            helpText("Length of the motif to be discovered in the Input sequences"))
